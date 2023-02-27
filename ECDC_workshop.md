@@ -113,6 +113,8 @@ You can create the conda environment and activate it with the following commands
 conda env create --name ecdc-workshop --file specification.yml
 conda activate ecdc-workshop
 ```
+__IMPORTANT__
+The latest version of pySciCat seems to have issues working with our instance of SciCat.
 
 ## Retrieve your user token
 
@@ -135,12 +137,3 @@ You can use Exercise #6 template notebook as a start
 3. Print the dataset metadata
 4. Retrieve the data file
 5. Explore the file data structure
-
-### Exercise #7
-Use PySciCat to search and select the dataset and Scitacean to retrieve the dataset.
-You can use Exercise #7 template notebook as a start
-1. Retrieve dataset that has been acquired on __Ymir__ with __tomography__ technique and run number __3931__
-2. Find its derived datasets
-3. Load one of the derived datasets
-4. Print dataset information, including the metadata
-5. List the files associated with the derived datasets
