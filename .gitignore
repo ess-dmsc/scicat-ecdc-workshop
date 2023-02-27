@@ -1,0 +1,6 @@
+#
+# ignore data
+data
+#
+# jupyter notebooks check points
+.ipynb_checkpoints
